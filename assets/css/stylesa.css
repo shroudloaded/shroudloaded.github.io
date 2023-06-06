@@ -93,8 +93,8 @@ section.main {
 }
 
 section.main img {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   border-radius: 100%;
   object-fit: cover;
   border: 10px solid #21222b93;
@@ -184,7 +184,7 @@ section.main ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .social-links a {
@@ -193,28 +193,14 @@ section.main ul li a:hover {
 }
 
 .social-links img {
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-
 .social-links img:hover {
   transform: scale(1.1);
-}
-
-header,
-footer {
-  text-align: center;
-  font-family: "Raleway", Arial, sans-serif;
-  color: #ffffff;
-  /* Additional styling properties */
-}
-
-h1,
-h2 {
-  /* Additional styling properties */
 }
 
 .image-container {
@@ -243,68 +229,15 @@ h2 {
   opacity: 1;
 }
 
-/* styles.css */
-
-/* Add your custom styles here */
-.image-grid {
+.footer ul {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  margin-top: 20px;
 }
 
-.image-item {
-  width: calc(25% - 10px);
-  border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.3s;
-}
 
-.image-item img {
-  width: 80%;
-  display: block;
-}
 
-.image-item:hover {
-  transform: scale(1.05);
-}
-
-.popup {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: white;
-  color: black;
-  padding: 10px;
-  display: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-.popup img {
-  width: 100px;
-  height: auto;
-  float: left;
-  margin-right: 10px;
-}
-
-.popup-info {
-  overflow: hidden;
-}
-
-.popup h2 {
-  margin-top: 0;
-}
-
-.popup a {
-  text-decoration: none;
-  color: black;
-}
-
-.close-button {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  font-size: 20px;
-  color: black;
-  text-decoration: none;
+.footer ul li a img {
+  width: 40px;
+  height: 40px;
 }
