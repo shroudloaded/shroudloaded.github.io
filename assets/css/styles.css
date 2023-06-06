@@ -1,11 +1,10 @@
-/* styles.css */
-
 body {
   background-image: url("https://wallpapertag.com/wallpaper/full/1/1/8/402267-creepy-background-2900x1500-for-mobile.jpg");
   background-size: cover;
   background-position: top;
   color: white;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Foldit", sans-serif;
+  text-align: center;
 }
 
 .social-links {
@@ -31,26 +30,14 @@ body {
   transform: scale(1.1);
 }
 
-header {
+header, footer {
   text-align: center;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Foldit", sans-serif;
   color: #ffffff;
-   transition: color 0.5s ease;
-  /* Additional styling properties */
+  transition: color 0.5s ease;
 }
 
-h1 {
-  /* Additional styling properties */
-}
-
-footer {
-  text-align: center;
-  font-family: "Raleway", Arial, sans-serif;
-  color: #ffffff;
-  /* Additional styling properties */
-}
-
-h2 {
+h1, h2 {
   /* Additional styling properties */
 }
 
@@ -80,10 +67,6 @@ h2 {
   opacity: 1;
 }
 
-/* styles.css */
-
-
-/* Add your custom styles here */
 .image-grid {
   display: flex;
   flex-wrap: wrap;
@@ -106,44 +89,3 @@ h2 {
 .image-item:hover {
   transform: scale(1.05);
 }
-
-.popup {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: white;
-  color: black;
-  padding: 10px;
-  display: none;
- box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-.popup img {
-  width: 100px;
-  height: auto;
-  float: left;
-  margin-right: 10px;
-}
-
-.popup-info {
-  overflow: hidden;
-}
-
-.popup h2 {
-  margin-top: 0;
-}
-
-.popup a {
-  text-decoration: none;
-  color: black;
-}
-
-.close-button {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  font-size: 20px;
-  color: black;
-  text-decoration: none;
-}
-
